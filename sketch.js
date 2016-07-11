@@ -12,8 +12,8 @@ function setup() {
 function draw() {
   createCanvas(windowWidth, windowHeight);
   background(0, 10, 20);
-  loadImage("assets/laDefense.jpg", function(img) {
-  image(img, 0, 0);
+  //loadImage("assets/laDefense.jpg", function(img) {
+  //image(img, 0, 0);
   textSize(windowHeight*0.1);
   textAlign(CENTER);
   fill(0, 102, 153);

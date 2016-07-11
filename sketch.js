@@ -6,7 +6,7 @@ function setup() {
 function draw() {
 
   background(0, 10, 20);
-  textSize(windowWidth);
+  textSize(windowWidth*0.8);
   textAlign(CENTER);
   fill(0, 102, 153);
   text("Joaquín Ibar S.", windowWidth / 2, windowHeight * 0.3);

@@ -1,8 +1,7 @@
 function setup() {
   // here we use a callback to display the image after loading
-  loadImage("assets/fotoportada.jpg", function(img) {
-    image(img, 0, 0);
-  });
+  //loadImage("assets/fotoportada.jpg", function(img) {
+  //image(img, 0, 0); });
 }
 
 function draw() {

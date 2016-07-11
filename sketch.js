@@ -1,12 +1,8 @@
-var img;
-function preload() {
-  img = loadImage("assets/fotoportada.jpg");
-}
-
 function setup() {
-  image(img, 0, 0);
-  image(img, 0, 0, 100, 100);
-  image(img, 0, 0, 100, 100, 0, 0, 100, 100);
+  // here we use a callback to display the image after loading
+  loadImage("assets/fotoportada.jpg", function(img) {
+    image(img, 0, 0);
+  });
 }
 
 function draw() {
